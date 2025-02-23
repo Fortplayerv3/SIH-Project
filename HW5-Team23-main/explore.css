@@ -1,0 +1,287 @@
+body{
+    background: linear-gradient(90deg,#538da0,rgb(203, 122, 52));
+    color: white;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(cultural.jpg);
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+    position: sticky;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+.navbar a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.navbar a:hover {
+    color: #ff5722;
+}
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+.nav-language {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 600;
+    margin-left: 15px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.p1 {
+    color: #f4f4f4;
+    transition: background-color 0.3s ease;
+}
+
+.p1:hover {
+    color: #e64a19;
+}
+
+.p2 {
+    color: #f4f4f4;
+    transition: background-color 0.3s ease;
+}
+
+.p2:hover {
+    color: #e64a19;
+}
+.head{
+    text-align: center;
+    margin-top: 350px;
+}
+.head h1{
+    font-size: 60px;
+    color: #333;
+}
+.head p{
+    font-size: 35px;
+    color: #333;
+}
+.content{
+    margin-top: 200.5px;
+    padding-top: 12px;
+    width: 375px;
+    background:linear-gradient(90deg,#fff,#ef3570);
+    height: 130px;
+    border-radius: 15px;
+    margin-left: 38%;
+    overflow-y: scroll;
+}
+.content::-webkit-scrollbar{
+    display: none;
+}
+.content a{
+    color: wheat;
+    text-decoration: none;
+}
+.search{
+    width: 63%;
+    border: 4px solid;
+    border-radius: 4px;
+    margin-left: 60px;
+}
+.search:hover .content{
+    display: block;
+}
+.search input{
+    outline: none;
+    border: none;
+    box-shadow: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+.state-list{
+    padding: 20px 0;
+    
+}
+.StateUnion{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 15px;
+}
+.StateUnion img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-left: 55px;
+}
+.StateUnion .details{
+    padding-left: 15px;
+
+}
+.StateUnion .details h2{
+    font-size: 20px;
+    color: black;
+}
+.StateUnion .details h3{
+    font-size: 18px;
+}
+
+.ss{
+    margin-top: 90px;
+    text-align: center;
+    font-size: medium;
+    color: aquamarine;
+}
+.ss i{
+	color:#a82064;
+	padding-right: 1rem;
+    margin-top: 80px;
+}
+section{
+    font-family: sans-serif;
+}
+.container{
+    position: relative;
+    max-width: 1406px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+  background: transparent;
+}
+.container .box{
+    padding: 30px 30px;
+    overflow: hidden;
+}
+.image img{
+    width: 180px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 9%;
+    opacity: .8;
+    border: 3px solid #fff;
+}
+.card{
+    height: 310px;
+    background: linear-gradient(90deg,rgb(233, 130, 233),#64aeb4); 
+    border-radius: 32%;
+    border: 0.1px solid #fff;
+    transition: 5s ease-in-out;
+}
+.card .card-cont{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.card-cont .sname{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    color: #1ea3e1;
+}
+.sname .name{
+    font-size: 20px;
+    font-weight: 600;
+}
+.sname .capital{
+    font-size: 17px;
+    font-weight: 500;
+    color: #cabdff;
+}
+.card-cont button{
+    position: relative;
+    padding: 4px 35px;
+    background: #ff0f5b;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    opacity: .75;
+    margin-top: 20px;
+}
+.card-cont button a{
+    text-decoration: none;
+    color: white;
+}
+.cap{
+    margin-top: 5px;
+}
+#descriptionBox {
+    background-color: #ff6d6d;
+    width:350px;
+    height: 97px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    padding: 5px 5px;
+    margin-top: -105px;
+    font-size: 13px;
+}
+.box .swiper-button-next,
+.box .swiper-button-prev{
+    color: rgb(26, 26, 26);
+}
+.box .swiper-button-next{
+    right: 0;
+}
+.box .swiper-button-prev{
+    left: 0;
+}
+.box .swiper-pagination-bullet{
+    background: #3a3a3a;
+    width: 12px;
+    height: 12px;
+}
+.footer{
+    padding: 15px 15% 10px;
+    border-top: 6px solid #333 ;
+    color: #777;
+    background-color: #333;
+    justify-content: center;
+    margin-bottom: -10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.footer .col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+}
+.footer .row{
+    align-items: flex-start;
+    padding: 10px 0;
+    display: flex;
+}
+.copyright{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}

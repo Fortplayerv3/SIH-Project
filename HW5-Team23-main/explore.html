@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="explore.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="navbar-left">
+                <a href="home.php">Home</a>
+                <a href="explore.html">Explore</a>
+                <a href="event.html">Event</a>
+                <a href="quiz.html">Quiz</a>
+                <a href="Contact-Form/contact.html">Contact</a>
+            </div>
+            <div class="nav-language">
+                <img src="india-flag-icon.jpg" width="20px">
+                <p class="p1">EN</p>
+                <img src="dropdown_icon.png" width="8px" alt="">
+                <p class="p2"><a href="logout.php">Logout</a></p>
+            </div>
+        </div>
+        <div class="head">
+            <h1>Explore!</h1>
+            <p>India's rich Heritage and Culture.</p>
+        </div>
+        <div class="content">
+
+            <form class="search">
+
+                <input type="text" placeholder="Enter state/Union territoty" id="sitem" onkeyup="search()">
+                <i class="fas fa-search"></i>
+            </form>
+            <div class="state-list" id="state-list">
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Andhra pradesh</h2>
+                        <a href="">State</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Arunachal Pradesh</h2>
+                        <a href="">State</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Assam</h2>
+                        <a href="">State</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Bihar</h2>
+                        <a href="">State</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Chhattisgarh</h2>
+                        <a href="">State</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Goa</h2>
+                        <a href="">State</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Gujurat</h2>
+                        <a href="">State</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Haryana</h2>
+                        <a href="">State</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Himachal pradesh</h2>
+                        <a href="">State</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Jharkhand</h2>
+                        <a href="">State</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Karnataka</h2>
+                        <a href="">State</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Kerala</h2>
+                        <a href="">State</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Maharashtra</h2>
+                        <a href="">State</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Madhya Pradesh</h2>
+                        <a href="">State</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Manipur</h2>
+                        <a href="">State</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Meghalaya</h2>
+                        <a href="">State</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Mizoram</h2>
+                        <a href="">State</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Nagaland</h2>
+                        <a href="">State</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Odisha</h2>
+                        <a href="odisha.html" target="_blank">State</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Punjab</h2>
+                        <a href="">State</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Rajasthan</h2>
+                        <a href="">State</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Sikkim</h2>
+                        <a href="">State</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Tamil Nadu</h2>
+                        <a href="">State</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Tripura</h2>
+                        <a href="">State</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Telengana</h2>
+                        <a href="">State</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Uttar Pradesh</h2>
+                        <a href="">State</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Uttarakhand</h2>
+                        <a href="">State</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>West Bengal</h2>
+                        <a href="">State</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Andaman & Nicobar</h2>
+                        <a href="">Union territory</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Chandigarh</h2>
+                        <a href="">Union territory</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Dadra & Nagar Haveli and Daman & Diu</h2>
+                        <a href="">Union territory</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Delhi</h2>
+                        <a href="">Union territory</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Jammu & kashmir</h2>
+                        <a href="">Union territory</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Ladakh</h2>
+                        <a href="">Union territory</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Lakshadweep</h2>
+                        <a href="">Union territory</a>
+                    </div>
+                </div>
+                <div class="StateUnion">
+                    <img src="bg.jpg" alt="">
+                    <div class="details">
+                        <h2>Puducherry</h2>
+                        <a href="">Union territory</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <section>
+        <div class="ss">
+            <h2><i class="fas fa-map-marked-alt"></i> 28 States</h2>
+        </div>
+        <div class="container">
+            <div class="box mySwiper">
+                <div class="cont swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Andhra Pradesh</span>
+                                <span class="capital">Amaravati</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Arunachal Pradesh</span>
+                                <span class="capital">Itanagar</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Assam</span>
+                                <span class="capital">Dispur</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Bihar</span>
+                                <span class="capital">Patna</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Chhattisgarh</span>
+                                <span class="capital">Raipur</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Goa</span>
+                                <span class="capital">Panaji</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Gujurat</span>
+                                <span class="capital">Gandhinagar</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Haryana</span>
+                                <span class="capital">Chandrigarh</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Himachal Pradesh</span>
+                                <span class="capital">Shimla</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Jharkhand</span>
+                                <span class="capital">Ranchi</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                    
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Karnataka</span>
+                                <span class="capital">Banglore</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                            
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Kerala</span>
+                                <span class="capital">Thiurvanathapuram</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                            
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Madhya Pradesh</span>
+                                <span class="capital">Bhopal</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                            
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Maharashtra</span>
+                                <span class="capital">Mumbai</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                            
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Manipur</span>
+                                <span class="capital">Imphal</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                            
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Meghalaya</span>
+                                <span class="capital">Shillong</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                            
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Mizoram</span>
+                                <span class="capital">Aizwal</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                            
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Nagaland</span>
+                                <span class="capital">Kohima</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                            
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Odisha</span>
+                                <span class="capital">Bhubaneshwar</span>
+                            </div>
+                            <button id="showButton"><a href="odisha.html" target="_blank">Know more</a></button>
+                            
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Punjab</span>
+                                <span class="capital">Chandigarh</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                            
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Rajasthan</span>
+                                <span class="capital">Jaipur</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                            
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Sikkim</span>
+                                <span class="capital">Gangtok</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                            
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Tamil Nadu</span>
+                                <span class="capital">Chennai</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                            
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Telangana</span>
+                                <span class="capital">Hydrabad</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                            
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Tripura</span>
+                                <span class="capital">Agartala</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                            
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Uttarakhand</span>
+                                <span class="capital">Dehradun</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                            
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Uttar Pradesh</span>
+                                <span class="capital">Lucknow</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                            
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">West Bengal</span>
+                                <span class="capital">Kolkata</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="ss cap">
+            <h2><i class="fas fa-map-marked-alt"></i>8 Union Territories</h2>
+        </div>
+        <div class="container">
+            <div class="box mySwiper">
+                <div class="cont swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Andaman and Nicobar Islands</span>
+                                <span class="capital">Port Blair</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Chandigarh</span>
+                                <span class="capital">Chandigarh</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Dadra and Nagar Haveli and Daman & Diu</span>
+                                <span class="capital">Daman</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Delhi</span>
+                                <span class="capital">Delhi</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Jammu kashmir</span>
+                                <span class="capital">Srinagar, Jammu</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Ladakh</span>
+                                <span class="capital">Leh</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Lakshadweep</span>
+                                <span class="capital">Kavaratti</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-cont">
+                            <div class="image">
+                                <img src="bg.jpg" alt="">
+                            </div>
+                            <div class="sname">
+                                <span class="name">Puducherry</span>
+                                <span class="capital">Puducherry</span>
+                            </div>
+                            <button id="showButton"><a href="">Know more</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        <div class="row">
+            <div class="col">
+                <a href="#">FAQ</a>
+                <a href="#">Partners</a>
+            </div>
+            <div class="col">
+                <a href="#">Privacy</a>
+                <a href="#">Help</a>
+            </div>
+            <div class="col">
+                <a href="#">Account</a>
+                <a href="#">Ways to Explore</a>
+            </div>
+            <div class="col">
+                <a href="#">Terms of use</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+        <div class="copyright">
+            | Copyright &copy; CulturalCanvas.com | All Rights reserved |
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="explore.js"></script>
+
+    <script src="https://cdn.botpress.cloud/webchat/v2.1/inject.js"></script>
+    <script src="https://mediafiles.botpress.cloud/7336a250-20f5-46b0-a54f-53d7abe72dbb/webchat/v2.1/config.js"></script>
+</body>
+
+</html>

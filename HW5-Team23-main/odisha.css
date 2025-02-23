@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url(states_pic/odishabg.jpeg);
+}
+
+header {
+    background-color: #006400;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: -12px;
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+header p {
+    font-size: 20px;
+    margin: 10px 0 0;
+}
+
+.section {
+    padding: 40px;
+    background-color: #82e6fa;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.section p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery-item {
+    flex-basis: 22%;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.05);
+}
+
+.description {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #006400;
+}
+.description1{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #680606;
+}
+
+.description3 {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #21252e28;
+}
+
+
+.popular-places {
+    background-color: #8bf6af;
+}
+
+.famous-food {
+    background-color: #f1bd7c;
+    
+}
+
+
+
+.dance-forms {
+    background-color: #a89be4;
+}
+
+.cultural-heritage {
+    background-color: #e3b7d0;
+}

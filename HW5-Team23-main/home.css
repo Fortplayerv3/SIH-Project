@@ -1,0 +1,359 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 0.5s ease-in-out;
+}
+
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    font-size: 2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.3s;
+}
+
+.arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.arrow-left {
+    left: 20px;
+    transform: translateY(-50%);
+}
+
+.arrow-right {
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+    position: sticky;
+   
+   
+    
+}
+
+.navbar a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ff5722;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-language {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 600;
+    margin-left: 15px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.p1 {
+    color: #f4f4f4;
+    transition: background-color 0.3s ease;
+}
+
+.p1:hover {
+    color: #e64a19;
+}
+
+.p2 {
+    color: #f4f4f4;
+    transition: background-color 0.3s ease;
+}
+
+.p2:hover {
+    color: #e64a19;
+}
+
+
+
+.heading1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 2rem auto;
+    position: relative;
+    padding-bottom: 0.5rem;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+.main-content {
+    text-align: center;
+    padding: 3rem 1rem;
+
+    margin-top: 14rem;
+}
+
+
+.main-heading {
+    font-size: 6rem;
+    color: #333;
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: color 0.3s ease;
+}
+
+.main-heading:hover {
+    color: #ff5722;
+}
+
+
+.description {
+    font-size: 1.25rem;
+    color: #280970;
+    margin: 1rem auto;
+    max-width: 800px;
+    line-height: 1.6;
+}
+
+.heading1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 2rem auto;
+    position: relative;
+    padding-bottom: 0.5rem;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    border-bottom: 3px solid transparent;
+    margin-top: 45px;
+}
+
+.heading1:hover {
+    color: #15b9b9;
+    border-bottom: 3px solid #15b9b9;
+}
+
+.featured-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+    gap: 10px;
+}
+
+.card {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.card img:hover {
+    transform: scale(1.05);
+}
+
+.card-content {
+    padding: 1rem;
+}
+
+.card-content h3 {
+    margin: 1rem 0;
+    transition: color 0.3s ease;
+}
+
+.card-content h3:hover {
+    color: #1363bf;
+}
+
+.card-content p {
+    margin-bottom: 1.5rem;
+}
+
+.card-content a {
+    color: #229cff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.card-content a:hover {
+    color: #1994e6;
+}
+
+.social-icons {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+
+
+}
+.top-row{
+    display: flex;
+    gap:50px;
+}
+i{
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+i:hover{
+    transform: scale(1.2);
+    color: black;
+}
+.faq-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #dbd9e0;
+}
+
+.faq-container {
+    margin-top: 20px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #333;
+    margin-bottom: 10px;
+}
+
+.faq-question {
+    width: 100%;
+    background: none;
+    border: none;
+    text-align: left;
+    padding: 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #fff;
+    position: relative;
+    outline: none;
+    transition: color 0.3s;
+}
+
+.faq-question:after {
+    content: '+';
+    font-size: 1.5rem;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.3s;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding: 0 15px;
+}
+
+.faq-answer p {
+    margin: 15px 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: rgb(141, 136, 136);
+}
+
+.faq-question.active {
+    color: #2be3d4;
+}
+
+.faq-question.active:after {
+    content: '-';
+    transform: rotate(45deg);
+}
+.footer{
+    padding: 15px 15% 10px;
+    border-top: 6px solid #333 ;
+    color: #777;
+    background-color: #333;
+    justify-content: center;
+
+}
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.footer .col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+}
+.footer .row{
+    align-items: flex-start;
+    padding: 10px 0;
+    display: flex;
+}
+.copyright{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.bg-color{
+    background-color: #e4edb9;
+}

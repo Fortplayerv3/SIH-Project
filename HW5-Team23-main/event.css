@@ -1,0 +1,267 @@
+body{
+    background-image: url(bg.avif);
+    
+    background-size: cover;
+    
+}
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+    margin: -12px;
+   
+    
+}
+
+
+.navbar a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ff5722;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-language {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 600;
+    margin-left: 15px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+
+event-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+.heading1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 2rem auto;
+    position: relative;
+    padding-bottom: 0.5rem;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+.heading1:hover {
+    color: #c61a5c;
+    border-bottom: 3px solid #c61a5c;
+}
+.event-card {
+    display: flex;
+    background: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.event-card:hover{
+    background-color: #edaaaa;
+    height: 1.em;
+}
+
+.event-image img {
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.event-details {
+    padding: 20px;
+    flex: 1;
+    background-color: #f1dddd;
+}
+.event-details:hover{
+    background-color: #f4a3a3;
+}
+
+.event-details h3 {
+    color: #0066cc;
+    margin-bottom: 10px;
+}
+
+.event-details p {
+    margin: 5px 0;
+}
+
+button.learn-more-btn {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button.learn-more-btn:hover {
+    background-color: #005bb5;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+      
+      
+}
+
+
+.modal-content {
+    background-color: rgb(236, 162, 162);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 1.5em;
+    color: #aaa;
+}
+
+.close-btn:hover {
+    color: #000;
+}
+.live-card{
+    display:flex ;
+    gap: 20px;
+}
+.video-container p{
+    text-align:start;
+    justify-content: center;
+    width: 560;
+}
+.footer{
+    padding: 15px 15% 10px;
+    border-top: 6px solid #333 ;
+    color: #777;
+    background-color: #333;
+    justify-content: center;
+    margin: -12px;
+    margin-top: 40px;
+
+}
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.footer .col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+}
+.footer .row{
+    align-items: flex-start;
+    padding: 10px 0;
+    display: flex;
+}
+.copyright{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#countdown {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+}
+#timer {
+    font-size: 24px;
+    margin-top: 10px;
+}
+#timer span {
+    background-color: #f1c40f;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    color: #fff;
+}
+.reviews-section {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #e5caca;
+    margin-top: 40px;
+}
+.reviews-section h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    text-align: center;
+}
+.review {
+    margin-bottom: 20px;
+}
+.rating {
+    color: #f1c40f;
+    margin-bottom: 5px;
+}
+.rating .star {
+    font-size: 20px;
+}
+.review p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+.review small {
+    display: block;
+    color: #888;
+    font-style: italic;
+}
+.countdown{
+    font-size: 20px;
+    margin-top: 50px;
+
+
+}
+.countdown span{
+    background-color: #c61a5c;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    color: #fff;
+}

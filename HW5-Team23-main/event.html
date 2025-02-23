@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="event.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div class="navbar-left">
+            <a href="home.php">Home</a>
+            <a href="explore.html">Explore</a>
+            <a href="event.html">Event</a>
+            <a href="quiz.html">Quiz</a>
+            <a href="Contact-Form/contact.html">Contact</a>
+        </div>
+        <div class="nav-language">
+            <img src="india-flag-icon.jpg" width="20px">
+            <p class="p1">EN</p>
+            <img src="dropdown_icon.png" width="8px" alt="">
+            <p class="p2">Sign Up</p>
+        </div></div>
+        <h1 class="heading1"> Live Programs</h1>
+        <div class="live-section">
+        <div class="live-card">
+           
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/OUqGX-DucC8?si=BW_0gQPznJz2Ig5F"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="card">
+                    <b><p>Odissi or Orissi is one of the pre-eminent classical dance forms of India which originated in the Hindu temples of the eastern coastal state of Odisha in India. Its theoretical base trace back to ‘Natya Shastra’, the ancient Sanskrit Hindu text on the performing arts. Age-old tradition of Odissi is manifested from Odisha Hindu temples and various sites of archaeological significance that are associated with Hinduism, Jainism and Buddhism, the sculptures of which adorn dance postures of this art form. A form of illustrative anecdote of mythical and religious stories, devotional poems and spiritual ideas emoted by dancer with excellent body movements, expressions, impressive gestures and sign languages, its performance repertoire includes invocation, nrita, nritya, natya, and moksha. This dance form includes themes from Vaishnavism and others associated with Hindu gods and goddesses like Shiva, Surya and Shakti.</p></b>
+            </div>
+            <div class="live-card">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/kLQaGGjbQY8?si=ujHkL0JfFiYxroar" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+                    <b><p>Storytelling involves a two-way interaction between a storyteller and one or more listeners. The responses of the listeners influence the telling of the story. In fact, storytelling emerges from the interaction and cooperative, coordinated efforts of teller and audience.
+
+                        In particular, storytelling does not create an imaginary barrier between the speaker and the listeners. This is part of what distinguishes storytelling from the forms of theatre that use an imaginary “fourth wall.”
+                        
+                        Different cultures and situations create different expectations for the exact roles of storyteller and listener – who speaks how often and when, for example – and therefore create different forms of interaction.
+                        
+                        The interactive nature of storytelling partially accounts for its immediacy and impact. At its best, storytelling can directly and tightly connect the teller and audience.</p></b>
+            </div>
+            </div>
+            
+            
+
+        </div>
+    </div>
+    <div class="event-section">
+        <h1 class="heading1">Upcoming Cultural Heritage Programs</h2>
+
+        <!-- Event Card 1 -->
+        <div class="event-card">
+            <div class="event-image">
+                <img src="kathak.jpg" alt="Classical Dance Workshop">
+            </div>
+            <div class="event-details">
+                <h3>Classical Dance Workshop</h3>
+                <p>Date: September 10, 2024 | Time: 3:00 PM - 5:00 PM</p>
+                <p>Location: Rabindra Bhavan, Kolkata</p>
+                <p>Join us for an immersive workshop on classical Indian dance forms, featuring expert instructors and
+                    live performances.</p>
+                <button class="learn-more-btn" data-event="1">Learn More</button>
+                <div class="countdown" id="countdown1"></div>
+            </div>
+        </div>
+
+        <!-- Event Card 2 -->
+        <div class="event-card">
+            <div class="event-image">
+                <img src="handicraft.jpg" alt="Handicrafts Exhibition">
+            </div>
+            <div class="event-details">
+                <h3>Handicrafts Exhibition</h3>
+                <p>Date: October 5-7, 2024 | Time: 10:00 AM - 8:00 PM</p>
+                <p>Location: Dilli Haat, New Delhi</p>
+                <p>Explore the rich tradition of Indian handicrafts at this exhibition featuring artisans from across
+                    the country.</p>
+                <button class="learn-more-btn" data-event="2">Learn More</button>
+                <div class="countdown" id="countdown2"></div>
+            </div>
+        </div>
+
+        <!-- Event Card 3 -->
+        <div class="event-card">
+           
+            <div class="event-image">
+               
+                <img src="folk.jpg" alt="Folk Music Festival">
+            </div>
+            <div class="event-details">
+                <h3>Folk Music Festival</h3>
+                <p>Date: November 15, 2024 | Time: 6:00 PM - 11:00 PM</p>
+                <p>Location: Shilparamam, Hyderabad</p>
+                <p>Experience the soul of Indian folk music with performances from renowned artists across various
+                    regions.</p>
+                <button class="learn-more-btn" data-event="3">Learn More</button>
+                <div class="countdown" id="countdown3"></div>
+                
+            </div>
+        </div>
+    </div>
+    <div id="event-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div id="modal-details"></div>
+        </div>
+    </div>
+    
+    </div>
+    <!-- User Reviews & Ratings Section -->
+<div class="reviews-section">
+    <h2>User Reviews & Ratings</h2>
+    
+    <div class="review">
+        <div class="rating">
+            <span class="star">&starf;</span>
+            <span class="star">&starf;</span>
+            <span class="star">&starf;</span>
+            <span class="star">&starf;</span>
+            <span class="star">&star;</span>
+        </div>
+        <p>"Great event! Looking forward to the next one."</p>
+        <small>- Suhani Das</small>
+    </div>
+
+    <div class="review">
+        <div class="rating">
+            <span class="star">&starf;</span>
+            <span class="star">&starf;</span>
+            <span class="star">&starf;</span>
+            <span class="star">&starf;</span>
+            <span class="star">&starf;</span>
+        </div>
+        <p>"Amazing experience! Everything was perfectly organized."</p>
+        <small>-Pushpaja Priyadarshini</small>
+    </div>
+
+    <div class="review">
+        <div class="rating">
+            <span class="star">&starf;</span>
+            <span class="star">&starf;</span>
+            <span class="star">&starf;</span>
+            <span class="star">&starf;</span>
+            <span class="star">&star;</span>
+        </div>
+        <p>"Loved the event, but the venue was a bit crowded."</p>
+        <small>- Akash Kumar</small>
+    </div>
+
+    <!-- More reviews can be added here -->
+</div>
+
+
+    
+    <script src="event.js"></script>
+    <div class="footer">
+        <div class="row">
+            <div class="col">
+                <a href="#">FAQ</a>
+                <a href="#">Partners</a>
+            </div>
+            <div class="col">
+                <a href="#">Privacy</a>
+                <a href="#">Help</a>
+            </div>
+            <div class="col">
+                <a href="#">Account</a>
+                <a href="#">Ways to Explore</a>
+            </div>
+            <div class="col">
+                <a href="#">Terms of use</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+        <div class="copyright">
+            | Copyright &copy; CulturalCanvas.com | All Rights reserved |
+        </div>
+    </div>
+    <script src="https://cdn.botpress.cloud/webchat/v2.1/inject.js"></script>
+    <script src="https://mediafiles.botpress.cloud/7336a250-20f5-46b0-a54f-53d7abe72dbb/webchat/v2.1/config.js"></script>
+</body>
+
+</html>
